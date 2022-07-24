@@ -1,5 +1,5 @@
 const Button = (props) => {
-    return <button>{props.label} </button>
+    return <button onClick={props.handleClick}>{props.label} </button>
 }
 
 export default Button

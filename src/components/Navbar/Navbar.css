@@ -10,7 +10,7 @@
 }
 
 .div-menu {
-    margin: 0px 20px 0px 0px;
+    
 }
 
 .div-menu button {
@@ -24,4 +24,8 @@
 
 .div-menu button:hover {
     cursor: pointer;
+}
+
+.div-carrito {
+    margin: 0px 20px 0px 0px;
 }
