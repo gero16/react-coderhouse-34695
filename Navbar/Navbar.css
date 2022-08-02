@@ -1,0 +1,27 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.div-logo {
+    margin: 0px 0px 0px 20px;
+}
+
+.div-menu {
+    margin: 0px 20px 0px 0px;
+}
+
+.div-menu button {
+    padding: 5px;
+    margin: 0px 5px 0px 0px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+.div-menu button:hover {
+    cursor: pointer;
+}
