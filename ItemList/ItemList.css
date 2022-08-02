@@ -1,0 +1,10 @@
+.container-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul {
+    padding: 0px;
+}
