@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import Logo from '../../img/logo.jpg';
 import Button from "../Button/Button"
+import CartWidget from "../CartWidget/CartWidget";
 
 const Navbar = () => {
     
@@ -12,6 +13,7 @@ const Navbar = () => {
 
     return ( 
         <nav className="Navbar"> 
+
             <div className="div-logo">
                 <img src={Logo} alt="Imagen del logo de la tienda"/>
             </div>
@@ -20,9 +22,11 @@ const Navbar = () => {
                 <Button label="Celulares"/> 
                 <Button label ="Notebooks"/>  
                 <Button label="Tablets" />  
-                <Button label="PC-Gamer" />  
+                <Button label="PC-Gamer" /> 
                 <Button label="Auriculares" />  
+                <CartWidget />  
             </div>
+            
         </nav>
     )
 }

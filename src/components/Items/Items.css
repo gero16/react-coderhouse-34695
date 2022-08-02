@@ -1,0 +1,30 @@
+.lista-productos {
+    list-style: none;
+   
+}
+.contenedor-producto {
+    width: 280px;
+    height: 620px;
+    margin: 15px auto 15px auto;
+    
+    /*
+    overflow: hidden;
+    */
+}
+
+.contenedor-imagen img {
+    width: 280px;
+}
+
+.contenedor-producto h3 {
+ margin: 0px;
+}
+
+.producto-imagen {
+    width: 280px;
+    height: 280px;
+}
+
+.contenedor-texto {
+ 
+}
