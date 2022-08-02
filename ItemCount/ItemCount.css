@@ -1,0 +1,24 @@
+.div-count {
+    
+}
+
+.div-qty {
+    padding: 5px;
+    
+}
+
+.btn-count {
+    
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(195, 197, 195);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.btn-add {
+    border: 1px solid rgb(195, 197, 195);
+    margin: 10px;
+    padding: 6px;
+    font-size: 18px;
+}
