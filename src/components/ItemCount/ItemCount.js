@@ -37,7 +37,7 @@ const ItemCount = ({onAdd, initial, stock}) => {
                     onClick={() => onAdd(qty)}
                     disabled={stock === 0 ? true:null}
                     >
-                        Agregar
+                        Agregar al Carrito
                 </button>
         </div>
     )

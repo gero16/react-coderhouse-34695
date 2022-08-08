@@ -1,0 +1,37 @@
+h3, h2 {
+    margin: 0px;
+    color: #333E48;
+}
+
+.titulo-detalle {
+    margin-bottom: 15px;
+}
+.contenedor-producto-detalle {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin: 5px;
+}
+
+.contenedor-texto-detalle {
+    margin-top: 15vh;
+}
+
+
+.producto-imagen-detalle {
+    width: 50vw;
+}
+
+.contenedor-precio-detalle {
+    margin: 15vh 5px 0px 5px;
+    padding: 10px;
+    border: 1px solid rgb(192, 188, 188);
+    border-radius: 5px;
+    height: fit-content;
+}
+
+
+
+.precio-detalle {
+    margin-bottom: 15px;
+}

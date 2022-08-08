@@ -1,10 +1,10 @@
 const products = [
     {
         id: '1',
-        name: 'Laptop Dell Intel Core I7',
+        name: 'Laptop Dell Intel Core I7  Quad-Core 3.0 GHz',
         price: 1759,
         category: 'Laptop',
-        img: "https://netpc.uy/wp-content/uploads/2022/08/ASUS-Q409-2.png",
+        img: "https://netpc.uy/wp-content/uploads/2022/03/1-83.jpg",
         stock: 12,
         grafica: "NVIDIA GeForce RTX 3060", 
         teclado: "retroiluminado y teclado númerico",
@@ -12,7 +12,7 @@ const products = [
         marca: "HP",
         ram: "32GB",
         sistema: "Windows 11",
-        procesador: "el mejor",
+        procesador: "Intel Core i7-1165G7 Quad-Core 3.0 GHz",
         resolucion: "3072 x 1920",
         pantalla: "16'",
         disco: "SSD 1TB",
@@ -23,7 +23,7 @@ const products = [
         price: 1300, 
         name: 'Intel Core i7-1165G7 Quad-Core 2.8 GHz',
         category: 'Laptop',
-        img: 'https://www.urumarket.com.uy/tienda/804-tm_thickbox_default/dell-inspiron-156-11va-gen-core-i7-11390h-geforce-mx450-16gb-512-gb-ssd.jpg',
+        img: 'https://netpc.uy/wp-content/uploads/2022/02/1-130.jpg',
         stock: 12,
         grafica: "NVIDIA GeForce RTX 3060", 
         teclado: "retroiluminado y teclado númerico",
@@ -60,7 +60,7 @@ const products = [
     },
     {
         id: '4',
-        name: 'Tablet SAMSUNG TAB ',
+        name: 'Tablet SAMSUNG TAB Android 12  One UI 4.1 ',
         price: 980,
         category: 'PC',
         img: 'https://netpc.uy/wp-content/uploads/2022/06/3-12.jpg',
@@ -102,7 +102,7 @@ const products = [
     },
     {
         id: '6',
-        name: 'Notebook Gateway 15.6″ ',
+        name: 'Notebook Gateway 15.6  1.6 Ghz″ ',
         price: 1800,
         category: 'Laptop',
         img: 'https://netpc.uy/wp-content/uploads/2022/07/gateway-r7-2.jpg',
@@ -145,7 +145,7 @@ const products = [
     },
     {
         id: '8',
-        name: 'Notebook Asus Gamer I7',
+        name: 'Notebook Asus Gamer I7 2.8Ghz',
         price: 3400,
         category: 'Laptop',
         img: 'https://netpc.uy/wp-content/uploads/2020/10/ASUS-GAMER-I7-16GB-1TB-256GB-SSD-1.jpg',
@@ -157,7 +157,7 @@ const products = [
         ram: "16GB DDR4",
         sistema: "Windows 10 Home",
         procesador: "Intel Core i7-7700HQ",
-        frecuencia: "2.8 / 3.8 Ghzz",
+        frecuencia: "2.8 / 3.8 Ghz",
         resolucion: "1920×1080",
         pantalla: "17.3″ FULL HD",
         disco: "1TB + 256GB SSD",
@@ -267,6 +267,13 @@ export const getProductsCategory = (category) => {
     });
 };
 
+export const getProductById = (id) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.id === id))
+        }, 500)
+    })
+}
 
 
 export default products

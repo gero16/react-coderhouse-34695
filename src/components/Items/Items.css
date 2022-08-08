@@ -4,15 +4,35 @@
 }
 .contenedor-producto {
     width: 280px;
-    height: 620px;
+    height: 550px;
     margin: 15px auto 15px auto;
-    
-    /*
-    overflow: hidden;
-    */
 }
 
-.contenedor-imagen img {
+.contenedor-texto {
+    margin: 0px;
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.contenedor-imagen:hover{
+    opacity: 0.8;
+
+}
+
+.Option {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 10;
+    color: rgb(171, 167, 164);
+    font-size: 14px;
+    padding: 8px;
+   
+}
+
+.producto-imagen {
     width: 280px;
 }
 
@@ -25,6 +45,3 @@
     height: 280px;
 }
 
-.contenedor-texto {
- 
-}
