@@ -26,7 +26,7 @@ Configuradas en App.js
 
 1. La ruta "/" muestra el título de bienvenida y el listado de todos los productos (ItemListContainer).
 
-2. La ruta "/Categoria/:category" muestra los productos filtador según la cateogria seleccionada(ItemListContainer + el filtro).
+2. La ruta "/category/:category" muestra los productos filtador según la cateogria seleccionada(ItemListContainer + el filtro).
 
 3. La ruta "/details/:Id" muestra una page adicional en la que próximamente se incluirán videos de distintas preparaciones realizadas con los productos de la App.
 
