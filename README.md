@@ -6,7 +6,7 @@ Simulador de e-commerce
 
 
 ## Logo
-![Logo] https://asset.cloudinary.com/geronicola/464cf1bc7b4babf6a0c6cfda63a30dab
+![Logo](https://asset.cloudinary.com/geronicola/464cf1bc7b4babf6a0c6cfda63a30dab)
 
 
 ## Instalación local
