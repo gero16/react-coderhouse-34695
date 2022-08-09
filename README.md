@@ -38,15 +38,15 @@ Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg)
-https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg
-https://res.cloudinary.com/geronicola/image/upload/v1660078999/ze5gxrzovimercbxqhwn.jpg
+![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg)
+![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/ze5gxrzovimercbxqhwn.jpg)
 
 
 
 ## Demo en formato gif
 
-![](https://giphy.com/gifs/OmsMZoeGv30Cbt9MEf)
-https://media2.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif?cid=790b7611320b29e4e07eb7c5f4d7006f4197d3394971d05f&rid=giphy.gif&ct=gpp
+![](https://giphy.com/gifs/OmsMZoeGv30Cbt9MEf](https://media.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif)
+![](https://media.giphy.com/media/NTtC8txTpPElUV4m47/giphy.gif)
 
 
 ## Authors
