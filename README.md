@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Mercadito - Tienda Virtual
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto para el curso de React de Coder House en el año 2022.
 
-## Available Scripts
+Simulador de e-commerce
 
-In the project directory, you can run:
 
-### `npm start`
+## Logo
+![Logo] https://asset.cloudinary.com/geronicola/464cf1bc7b4babf6a0c6cfda63a30dab
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación local
 
-### `npm test`
+$ git clone https://github.com/gero16/react-coderhouse-34695
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+$ cd react-coderhouse-34695
 
-### `npm run build`
+$ npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Rutas definidas
 
-### `npm run eject`
+Configuradas en App.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. La ruta "/" muestra el título de bienvenida y el listado de todos los productos (ItemListContainer).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. La ruta "/Categoria/:category" muestra los productos filtador según la cateogria seleccionada(ItemListContainer + el filtro).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. La ruta "/details/:Id" muestra una page adicional en la que próximamente se incluirán videos de distintas preparaciones realizadas con los productos de la App.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. La ruta "*" muestra toda un mensaje "404 - página no encontrada" a toda ruta que no sea ninguna de las anteriores
 
-## Learn More
+Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en el logo de NavBar.js (inicio).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Screenshots
 
-### Code Splitting
+https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg
+https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg
+https://res.cloudinary.com/geronicola/image/upload/v1660078999/ze5gxrzovimercbxqhwn.jpg
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Demo en formato gif
 
-### Making a Progressive Web App
+https://giphy.com/gifs/OmsMZoeGv30Cbt9MEf
+https://media2.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif?cid=790b7611320b29e4e07eb7c5f4d7006f4197d3394971d05f&rid=giphy.gif&ct=gpp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Geronimo Nicola - https://github.com/gero16
