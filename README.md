@@ -52,6 +52,8 @@ Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en
 
 Mostrar las categorias de los productos
 ![](https://media.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif)
+
+
 Mostrar un producto en especifico
 ![](https://media.giphy.com/media/NTtC8txTpPElUV4m47/giphy.gif)
 
