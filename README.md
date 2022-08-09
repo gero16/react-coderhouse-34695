@@ -37,7 +37,7 @@ Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg)
+![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660079027/wkhp3v2gp0onaghrbru7.jpg)
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg)
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/ze5gxrzovimercbxqhwn.jpg)
 
