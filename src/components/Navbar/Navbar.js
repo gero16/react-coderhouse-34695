@@ -19,11 +19,23 @@ const Navbar = () => {
             </div>
 
             <div className="div-menu"> 
-                <Button label="Celulares"/> 
-                <Button label ="Notebooks"/>  
-                <Button label="Tablets" />  
-                <Button label="PC-Gamer" /> 
-                <Button label="Auriculares" />  
+                <Link to={"/category/celulares"}>
+                    <Button label ="Celulares"/>  
+                </Link>
+               
+                <Link to={"/category/notebooks"}>
+                    <Button label ="Notebooks"/>  
+                </Link> 
+                <Link to={"/category/tablets"}>
+                    <Button label ="Tablets"/>  
+                </Link>  
+                <Link to={"/category/PC"}>
+                    <Button label ="PCs"/>  
+                </Link>  
+                <Link to={"/category/auriculares"}>
+                    <Button label="Auriculares" />   
+                </Link>  
+              
                 <CartWidget />  
             </div>
             

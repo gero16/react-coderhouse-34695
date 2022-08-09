@@ -6,14 +6,27 @@ import { getProducts, getProductsCategory } from '../../products'
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([])
-    const {category} = useParams()
+
+    const {categoryId} = useParams()
+    console.log(categoryId)
     
     useEffect(() => {
-        const asyncFunction = category ? getProductsCategory : getProducts
-        asyncFunction(category).then(products => {
+        if(!categoryId) {
+            getProducts().then(products => {
+                setProducts(products)
+            })
+        } else {
+            getProductsCategory(categoryId).then(products => {
+                setProducts(products)
+            })
+        }
+        /*
+        const asyncFunction = categoryId ? getProductsCategory : getProducts
+        asyncFunction(categoryId).then(products => {
             setProducts(products)
         })
-    }, [category])
+        */
+    }, [categoryId])
 
     return (
         <div>
