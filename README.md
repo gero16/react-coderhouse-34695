@@ -6,7 +6,7 @@ Simulador de e-commerce
 
 
 ## Logo
-![Logo](https://asset.cloudinary.com/geronicola/464cf1bc7b4babf6a0c6cfda63a30dab)
+![Logo](https://res.cloudinary.com/geronicola/image/upload/v1660075281/fmynvzuuprynh9ya7lcl.jpg)
 
 
 ## Instalación local
@@ -45,7 +45,7 @@ Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en
 
 ## Demo en formato gif
 
-![](https://giphy.com/gifs/OmsMZoeGv30Cbt9MEf](https://media.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif)
+![](https://media.giphy.com/media/OmsMZoeGv30Cbt9MEf/giphy.gif)
 ![](https://media.giphy.com/media/NTtC8txTpPElUV4m47/giphy.gif)
 
 
