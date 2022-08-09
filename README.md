@@ -37,11 +37,13 @@ Los Liks de Navegacion se encuentran incorporados en el Navbar (categorias) y en
 
 ## Screenshots
 
-1- Pagina Principal
+![1- Pagina Principal]
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660079027/wkhp3v2gp0onaghrbru7.jpg)
-2 Filtrado Notebook
+
+![2- Filtrado Notebook]
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/sltdkry7lnkslbrtmzoy.jpg)
-3- Detalle del Producto
+
+![3- Detalle del Producto]
 ![App Screenshot](https://res.cloudinary.com/geronicola/image/upload/v1660078999/ze5gxrzovimercbxqhwn.jpg)
 
 
